@@ -345,7 +345,7 @@ def updatestudent():
     mobileentry = Entry(updateroot,font=('roman',15,'bold'),bd=5,textvariable=mobileval)
     mobileentry.place(x=250,y=130)
 
-    emailentry = Entry(updateroot,font=('roman',15,'bold'),bd=5,textvariable=idval)
+    emailentry = Entry(updateroot,font=('roman',15,'bold'),bd=5,textvariable=emailval)
     emailentry.place(x=250,y=190)
 
     addressentry = Entry(updateroot,font=('roman',15,'bold'),bd=5,textvariable=addressval)
